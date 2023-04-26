@@ -1,13 +1,17 @@
 # Oil painting in the style of Thomas Cole.
-# Realistic oil painting
 # Quilt in the style of Michael C. Thorpe.
 # ointilistic drawing in the style of Seurat. 
+
+# Realistic oil painting
 
 task: "Generate a list of different art styles"
 doc: "Generate a list of different art styles"
 prompt-version: 1
 prompt: |+
-
+    List of art styles:
+    - Oil painting in the style of Thomas Cole.
+    - Quilt in the style of Michael C. Thorpe.
+    - ointilistic drawing in the style of Seurat. 
 engine: "OpenAI Codex"
 temperature: 0.3
 max-generated-tokens: "(* 2 prompt-length)"
